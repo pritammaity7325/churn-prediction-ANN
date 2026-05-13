@@ -1,6 +1,6 @@
 .vscode/
 logs/
-saved_model/
+saved_model/dataset/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
