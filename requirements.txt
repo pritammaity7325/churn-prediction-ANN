@@ -5,5 +5,5 @@ scikit-learn
 seaborn
 ipykernel
 streamlit
-keras
+tf-keras
 h5py
