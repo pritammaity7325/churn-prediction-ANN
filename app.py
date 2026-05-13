@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import tensorflow as tf
+from keras.models import load_model
 
 # Load trained ANN model
-model = tf.keras.models.load_model("model.h5")
+model = load_model("model.h5")
 
 # Load preprocessor (ColumnTransformer pipeline)
 with open("saved_model/preprocessor.pkl", "rb") as f:
