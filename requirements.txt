@@ -1,9 +1,9 @@
-pandas
-matplotlib
-numpy
+pandas==2.2.2
+matplotlib==3.9.0
+numpy==1.26.4
 tensorflow-cpu==2.16.1
-scikit-learn
+scikit-learn==1.5.0
 seaborn
 ipykernel
-streamlit
+streamlit==1.35.0
 tensorboard
